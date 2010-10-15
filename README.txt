@@ -1,0 +1,1 @@
+A starter project for using BDD in various development scenarios
