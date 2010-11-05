@@ -6,11 +6,12 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using BDDSkeleton.GUI.Presenters;
 using BDDSkeleton.GUI.Views;
 using BDDSkeleton.GUI.Tests.Mocks;
+using BDD;
 
 namespace BDDSkeleton.GUI.Tests.Presenters
 {
     [TestClass]
-    public class HelloWorldPresenterTest : BDDTest<HelloWorldPresenterTest>
+    public class HelloWorldPresenterTest : BDD<HelloWorldPresenterTest>
     {
 
         [TestInitialize]
